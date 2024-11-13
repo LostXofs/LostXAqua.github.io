@@ -1,0 +1,361 @@
+<!DOCTYPE Key>
+
+<script src="">
+	
+  </script> 
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/LostXofs/LostX-Ou-Ydkom-Fih-@main/W901.css" />
+    <script src="https://fastly.jsdelivr.net/npm/vue@3"></script>
+    <script src="https://fastly.jsdelivr.net/npm/vant@4/lib/vant.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://i.postimg.cc/ZqBywJ5L/photo-2024-09-18-05-16-44-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/LostXofs/LostX-Ou-Ydkom-Fih-@main/W902.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<style>.left2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.font1 {
+    text-align: center; 
+}
+
+.expires-title {
+    color: rgb(255, 255, 255);
+    margin: 0; /
+}
+
+.expires-datetime {
+    color: #00eeff;
+    margin: 0; /
+}
+
+
+body {
+            margin: 0;
+            overflow: hidden; /* لإخفاء أي تمرير للصفحة */
+            background-color: white;
+        }
+
+        #animatedText {
+            position: fixed;
+            top: 0%; /* تعديل المسافة من الأعلى */
+            left: 100%;
+            white-space: nowrap;
+            font-size: 50px; /* تكبير حجم النص */
+            z-index: 1000;
+            font-family: Arial, sans-serif;
+            animation: slide 10s linear infinite; /* حركة الانزلاق للنص */
+        }
+
+@keyframes slide {
+        0% {
+            left: 100%;
+        }
+        100% {
+            left: -100%;
+        }
+    }
+
+    .char1 {
+        display: inline-block;
+        animation: colorChange 2s infinite alternate; /* تسريع تغيير الألوان */
+    }
+
+    @keyframes colorChange {
+        0% { color: rgb(255, 0, 0); }
+        25% { color: rgb(43, 255, 0); }
+        50% { color: rgb(255, 0, 0); }
+        75% { color: rgb(72, 255, 0); }
+        100% { color: rgb(255, 0, 0); }
+    }
+
+
+    @keyframes slide {
+        0% {
+            left: 100%;
+        }
+        100% {
+            left: -100%;
+        }
+    }
+
+    .char {
+        display: inline-block;
+        animation: colorChange 2s infinite alternate; /* تسريع تغيير الألوان */
+    }
+
+    @keyframes colorChange {
+        0% { color: white; }
+        25% { color: aqua; }
+        50% { color: white; }
+        75% { color: aqua; }
+        100% { color: white; }
+    }
+</style>
+
+</style>
+</head>
+
+<div id="animatedText">
+    <span class="char1">Enjoi</span>
+    <span class="char">Willamsxit</span>
+   
+    
+</div>
+
+    
+</div>
+
+
+
+<body>
+    <div id="app">
+        <div class="ayimgui">
+            <div id="particles-js"></div>
+            <template v-if="!bsok">
+                <div class="pabg">
+
+                    <div class="left1"> 
+					                   
+			
+                       	<van-image width="80" height="60" src="https://i.postimg.cc/ZqBywJ5L/photo-2024-09-18-05-16-44-removebg-preview.png" />
+												 </van-image><br>
+				
+									
+                                                 <van-button @click="changeTab('1')" size="small">function ↻</van-button><br>
+                                                 <van-button @click="changeTab('2')" size="small">Sniper 𖥠</van-button><br>
+                                                 <van-button @click="changeTab('3')" size="small">Chams ☀︎︎</van-button><br>
+                                                 <van-button @click="changeTab('4')" size="small">Speed ↯</van-button><br>
+                                                 <van-button @click="changeTab('5')" size="small">Other...</van-button><br>
+                                              
+                                             </div>
+                                             <div class="left2">
+                                                <div class="font1">
+                                                    <div class="expires-title">Expires</div>
+                                                    <div class="expires-datetime" id="datetime"></div>
+                                                </div>
+                                            </div>
+                                            
+                                            </div>
+                                                     <label1 class="expires"></label1>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div class="right">
+                                             
+                                            <div class="right1">
+                                                <div v-show="tabValue==='1'">
+                                                    <p>
+                                                       <span class="char">AIM</span>
+                                                    </p>
+                                            <van-button size="small" color="#var(--color-a)" onclick="aim180()">Aim 180</van-button>
+                                                    <van-button size="small" color="#var(--color-a)" onclick="AimFor()">Aim Fov</van-button><br>
+                                                    <van-button size="small" color="#var(--color-a)" onclick="Aimlock()">Aim Lock</van-button>
+                                                    <van-button size="small" color="#var(--color-a)" onclick="aimscope()">Aim Scope</van-button>
+                                                    <hr size="1" style="color:var(--color-f)">
+                                                
+                                                        <span class="char">OTHER</span>
+                                                     </p>
+                                                     <van-button size="small" color="#var(--color-a)" onclick="Norecoil()">No Recoli</van-button>
+                                                     <van-button size="small" color="#var(--color-a)" onclick="lockscope()">Lock Scope</van-button><br>
+                                                 <van-button size="small" color="#var(--color-a)" onclick="so88()">Mageiic V1</van-button>
+                                                 <van-button size="small" color="#var(--color-a)" onclick="so881()">Mageiic V10</van-button>
+                                 
+                                                 </div>
+                                                 <div v-show="tabValue === '2'">
+                                                     <p>
+                                                        <span class="char">AWM</span>
+                                                     </p>
+                                                     <van-button size="small" color="#var(--color-a)" onclick="s100s()">Awm Aim </van-button>
+                                                     <van-button size="small" color="#var(--color-a)" onclick="s105s()">Awm Scop</van-button><br>
+                                                     <van-button size="small" color="#var(--color-a)" onclick="so89()">Arm Switch</van-button>
+                                                     <van-button size="small" color="#var(--color-a)" onclick="s101s()">Awm Switch</van-button>
+                                                     <hr size="1" style="color:var(--color-f)">
+                                                     <p>
+                                                        <span class="char">BUFF</span>
+                                                     </p>
+                                                     <van-button size="small" color="#var(--color-a)" onclick="sk()">Buff Sensi</van-button>
+                                                     <van-button size="small" color="#var(--color-a)" onclick="s08()">Buff Jump</van-button><br>
+                                                 <van-button size="small" color="#var(--color-a)" onclick="buffdame()">Buff Dame</van-button>
+                                 
+                                                 </div>
+                                                 <div v-show="tabValue === '3'">
+                                                     <p>
+                                                        <span class="char">ANTENNA</span>
+                                                     </p>
+                                                     <van-button size="small" color="#var(--color-a)" onclick="so90()">Antenna X1</van-button>
+                                                     <van-button size="small" color="#var(--color-a)" onclick="so91()">Antenna X2</van-button><br>
+                                                     <van-button size="small" color="#var(--color-a)" onclick="so92()">Antenna X3</van-button>
+                                                     
+                                                     <hr size="1" style="color:var(--color-f)">
+                                                     <p>
+                                                        <span class="char">CAMIRA</span>
+                                                     </p>
+                                                     <van-button size="small" color="#var(--color-a)" onclick="xa()">Cam Xa</van-button>
+                                                     <van-button size="small" color="#var(--color-a)" onclick="cao()">Cam Cao</van-button><br>
+                                                 <van-button size="small" color="#var(--color-a)" onclick="ZomCamxa()">Cam Pc</van-button>
+                                 
+                                                 </div>
+                                                                             
+                                             <div v-show="tabValue === '4'">
+                                                <p>
+                                                    <span class="char">SEARCH AND RESTORE</span>
+                       
+                                                   </p>
+                                                                               <p>
+                                                       <font style="color:black and white ;">&nbsp;&nbsp;&nbsp;&nbsp;Speed(in game) Restore after game is over</font>
+                                                                                   </p>
+                                                   <van-button size="small" color="#var(--color-a)" onclick="Search()">Search</van-button>
+                                                   <van-button size="small" color="#var(--color-a)" onclick="Restore()">Restore</van-button><br>
+                                                                           
+                                            
+                                                 <hr size="1" style="color:var(--color-f)">
+                                                 <p>
+                                                    <span class="char">SPEED</span>
+                       
+                                                   </p>
+                                                                       
+                                                   <van-button size="small" color="#var(--color-a)" onclick="S2()">2X</van-button>
+                                                   <van-button size="small" color="#var(--color-a)" onclick="V5()">5X</van-button><br>
+                                                   <van-button size="small" color="#var(--color-a)" onclick="so02()">8X</van-button><br>
+                                                  
+                                           
+                               
+
+                                                  
+                       
+                                                                           <p>
+                            
+                                            </div>
+                                                     <div v-show="tabValue === '5'">
+                                                         <p>
+                                                            <span class="char">MY CHANEL</span>
+                                                         </p>
+                                                         <van-button size="small" color="#var(--color-a)" onclick="T1()">Telegram</van-button>
+                                                         <van-button size="small" color="#var(--color-a)" onclick="T3()">Discord</van-button><br>
+                                                         <van-button size="small" color="#var(--color-a)" onclick="T2()">instagram</van-button>
+                                                         <hr size="1" style="color:var(--color-f)">
+                                                         <p>  
+                                                             <span class="char">EDIT PANEL</span>
+                                                            </p>
+                                                            <div id="particles-js"></div>
+                                                            <div id="controls">
+                                                                <van-button size="small" color="#var(--color-a)" id="changeColorButton">Change Color</van-button>
+                                                                <select id="colorPicker" class="hidden">
+                                                                    <option value="#ffffff">White</option>
+                                                                    <option value="#ff0000">Red</option>
+                                                                    <option value="#00ff00">Green</option>
+                                                                    <option value="#0000ff">Blue</option>
+                                                                    <option value="#ffff00">Yellow</option>
+                                                                    <option value="#00eeff">Aqua</option>
+                                                                    <option value="#ff009d">Pink</option>
+                                                                    <option value="#8B4513">Brown</option>
+                                                                    <option value="#FFD700">Golden</option>
+                                                                    <option value="#FFA500">Orange</option>
+                                                                </select>
+                                                            
+                                                                <van-button size="small" color="#var(--color-a)" id="changeShapeButton">Change Shape</van-button>
+                                                                <select id="shapePicker" class="hidden">
+                                                                    <option value="circle">Circle</option>
+                                                                    <option value="edge">Edge</option>
+                                                                    <option value="triangle">Triangle</option>
+                                                                    <option value="polygon">Polygon</option>
+                                                                </select>
+                                                            </div>
+                                                             
+                                                                     
+                                                                    
+                                                            
+                                                            <script>
+                                                                setButtonImage('https://i.postimg.cc/ZqBywJ5L/photo-2024-09-18-05-16-44-removebg-preview.png')
+                                                            </script>
+                                                            
+                                                        
+                                                            
+                         
+                                                                             
+                                                     <br>
+                         
+                                 </div>
+                    </div>
+                </div>
+                
+                </script>
+                <script>
+                function aim180() {
+                    if (input.checked) {
+                h5gg.clearResults();
+                h5gg.searchNumber('1057048494','I32','0x100000000', '0x160000000');
+                h5gg.editAll('-2000', 'I32');
+                h5gg.clearResults();
+                h5gg.searchNumber('1054951342','I32','0x100000000', '0x160000000');
+                h5gg.editAll('-2000', 'I32');
+                h5gg.clearResults();
+                h5gg.searchNumber('1053273620','I32','0x100000000', '0x160000000');
+                h5gg.editAll('-2000', 'I32');
+                vant.showNotify({
+                    type: 'success',
+                    message: 'Aim 180 | On'
+                        });
+                h5gg.clearResults();
+                        codeStatus = true;
+                    } else { 
+                h5gg.clearResults();
+                h5gg.searchNumber('-20000','I32','0x100000000', '0x160000000');
+                h5gg.editAll('1053273620', 'I32');
+                h5gg.clearResults();
+                h5gg.searchNumber('-20000','I32','0x100000000', '0x160000000');
+                h5gg.editAll('1054951342', 'I32');
+                h5gg.clearResults();
+                h5gg.searchNumber('-20000','I32','0x100000000', '0x160000000');
+                h5gg.editAll('1053273620', 'I32');
+                vant.showNotify({
+                    type: 'success',
+                    message: 'Aim 180 | Off'
+                        });
+                h5gg.clearResults();
+                        codeStatus = false;
+                    }
+                
+									
+									
+								}
+
+					function so02() { // speed x8
+h5gg.editAll('4366458311853685297', 'I64');
+({
+    type: 'success',
+    message: 'x8'
+});
+
+}			
+								
+								
+								
+            </script>
+            
+        </template>
+    </div>
+    </div>
+	
+	  <script src="https://cdn.jsdelivr.net/gh/LostXofs/LostX-Ou-Ydkom-Fih-@main/W904.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/LostXofs/LostX-Ou-Ydkom-Fih-@main/W905.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/LostXofs/LostX-Ou-Ydkom-Fih-@main/W906.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/LostXofs/LostX-Ou-Ydkom-Fih-@main/W907.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/LostXofs/LostX-Ou-Ydkom-Fih-@main/W908.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/LostXofs/LostX-Ou-Ydkom-Fih-@main/W909.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/LostXofs/LostX-Ou-Ydkom-Fih-@main/W910.js"></script>
+         
+</body>
+
+
+</body>
+</html>
